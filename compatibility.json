@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "kind": "audio_mixer",
+  "block_version": "0.1.0",
+  "maintained_by": "HackInvent",
+  "source": {
+    "algorithm": "block-source-v1",
+    "sha256": "5ccd50c5fd7abd81250421e2ebbff92560ee70803e025012acb4d4243876e1f2"
+  },
+  "bloxsmith_compatibility": [
+    "1.0.9"
+  ],
+  "tested_with_bloxsmith": "1.0.9",
+  "validations": [
+    {
+      "bloxsmith_version": "1.0.9",
+      "framework_commit": "b0807fcbb07f673cb6bfb6c104e1310ac3a3ab1b",
+      "framework_source_sha256": "11ca16f8418e77f7fd7a403f1f1350531c8e13600a92fbda97ae466d136eaf7c",
+      "tested_at": "2026-09-24T10:27:42.560567+00:00",
+      "status": "passed",
+      "installation_mode": "bundled",
+      "suite_paths": [
+        "tests/F5.92_audio_engine.py",
+        "tests/F5.93_audio_runtime.py",
+        "tests/F5.95_live_mixing.py",
+        "tests/F8.92_audio_ui.py"
+      ],
+      "suite_count": 4,
+      "report_sha256": "ccc2bc0423e18c82c31042ef744ba6afbc637040d86ea02a5b28af2025651d63"
+    }
+  ]
+}
