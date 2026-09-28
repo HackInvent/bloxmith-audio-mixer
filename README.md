@@ -8,6 +8,10 @@
 Verified BloxSmith versions: **1.0.9** (bundled-block tests; see [test evidence](compatibility.json)).
 <!-- block-metadata:end -->
 
+[![Audio Mixer — amber pixel-art module mixing multiple waveforms into one](media/thumbnail.webp)](media/cover.png)
+
+*Concept illustration of the block's function, not a Studio screenshot. [Artwork and generation prompt](media/README.md).*
+
 ## Role
 
 Mix independently decoded Opus sources into one new, clocked Ogg/Opus stream. Each source has its own gain and mute setting. Stopping or aborting one source leaves the others active.
